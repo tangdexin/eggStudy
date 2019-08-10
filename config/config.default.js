@@ -1,3 +1,11 @@
+/*
+ * @Description: 请输入描述
+ * @Author: tangdexin
+ * @Date: 2019-08-05 23:28:54
+ * @LastEditors: tangdexin
+ * @LastEditTime: 2019-08-10 15:27:57
+ */
+
 /* eslint valid-jsdoc: "off" */
 
 'use strict';
@@ -18,6 +26,10 @@ module.exports = appInfo => {
   // add your middleware config here
   config.middleware = [];
 
+  // config.mongoose = {
+  // url: 'mongodb://47.98.188.235/study',
+  // options: { server: { poolSize: 40 } } };
+
   // add your user config here
   const userConfig = {
     // myAppName: 'egg',
@@ -28,3 +40,4 @@ module.exports = appInfo => {
     ...userConfig,
   };
 };
+
